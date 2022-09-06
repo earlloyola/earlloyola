@@ -1531,7 +1531,8 @@ textarea {
     }
 
     .footer-caption p {
-        font-size: 17px;
+        font-size: 21px;
+        line-height: 1.6;
     }
 
     .footer-contacts span:not(:last-child) {
@@ -1539,7 +1540,6 @@ textarea {
     }
 
     .footer-contacts span {
-        font-size: 18px;
         display: block;
     }
 
@@ -1612,10 +1612,10 @@ textarea {
     }
 
     .about-logo img {
-        max-width: 90px;
-        height: 80px;
+        max-width: 120px;
+        height: 90px;
         -o-object-fit: contain;
-           object-fit: contain;
+        object-fit: contain;
         margin: 0 auto;
     }
 

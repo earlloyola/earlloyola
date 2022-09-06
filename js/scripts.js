@@ -202,10 +202,12 @@
 		app.initparallaxText();
 		app.initCustomFunction();
 		app.initparticle();
+		document.addEventListener('contextmenu', function(e) {
+		  e.preventDefault();
+		});
 	});
 	
 	$(window).on('load', function(){
-
 	});
 
 })(jQuery);

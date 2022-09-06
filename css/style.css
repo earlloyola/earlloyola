@@ -5,8 +5,7 @@
  *******************************************************/
 @font-face {
     font-family: 'League Spartan';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-Black.woff2') format('woff2'),
-        url('../fonts/LeagueSpartan/LeagueSpartan-Black.woff') format('woff');
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Black.woff2') format('woff2'), url('../fonts/LeagueSpartan/LeagueSpartan-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -14,8 +13,7 @@
 
 @font-face {
     font-family: 'League Spartan';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-ExtraLight.woff2') format('woff2'),
-        url('../fonts/LeagueSpartan/LeagueSpartan-ExtraLight.woff') format('woff');
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-ExtraLight.woff2') format('woff2'), url('../fonts/LeagueSpartan/LeagueSpartan-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -23,8 +21,7 @@
 
 @font-face {
     font-family: 'League Spartan';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-Bold.woff2') format('woff2'),
-        url('../fonts/LeagueSpartan/LeagueSpartan-Bold.woff') format('woff');
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Bold.woff2') format('woff2'), url('../fonts/LeagueSpartan/LeagueSpartan-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -32,8 +29,7 @@
 
 @font-face {
     font-family: 'League Spartan';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-Light.woff2') format('woff2'),
-        url('../fonts/LeagueSpartan/LeagueSpartan-Light.woff') format('woff');
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Light.woff2') format('woff2'), url('../fonts/LeagueSpartan/LeagueSpartan-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -41,8 +37,7 @@
 
 @font-face {
     font-family: 'League Spartan';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-ExtraBold.woff2') format('woff2'),
-        url('../fonts/LeagueSpartan/LeagueSpartan-ExtraBold.woff') format('woff');
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-ExtraBold.woff2') format('woff2'), url('../fonts/LeagueSpartan/LeagueSpartan-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -50,8 +45,7 @@
 
 @font-face {
     font-family: 'League Spartan';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-Medium.woff2') format('woff2'),
-        url('../fonts/LeagueSpartan/LeagueSpartan-Medium.woff') format('woff');
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Medium.woff2') format('woff2'), url('../fonts/LeagueSpartan/LeagueSpartan-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -59,8 +53,7 @@
 
 @font-face {
     font-family: 'League Spartan';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-Regular.woff2') format('woff2'),
-        url('../fonts/LeagueSpartan/LeagueSpartan-Regular.woff') format('woff');
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Regular.woff2') format('woff2'), url('../fonts/LeagueSpartan/LeagueSpartan-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -68,8 +61,7 @@
 
 @font-face {
     font-family: 'League Spartan';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-SemiBold.woff2') format('woff2'),
-        url('../fonts/LeagueSpartan/LeagueSpartan-SemiBold.woff') format('woff');
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-SemiBold.woff2') format('woff2'), url('../fonts/LeagueSpartan/LeagueSpartan-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -77,8 +69,7 @@
 
 @font-face {
     font-family: 'League Spartan';
-    src: url('../fonts/LeagueSpartan/LeagueSpartan-Thin.woff2') format('woff2'),
-        url('../fonts/LeagueSpartan/LeagueSpartan-Thin.woff') format('woff');
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Thin.woff2') format('woff2'), url('../fonts/LeagueSpartan/LeagueSpartan-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -204,18 +195,7 @@
     font-display: swap;
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, img, ins, kbd, q, s, samp,
-small, strike, tt, var, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small, strike, tt, var, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -224,78 +204,80 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
+
 ol, ul {
     list-style: none;
 }
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-area,
-img,
-map {
-    outline:none;
+area, img, map {
+    outline: none;
 }
 
 /* Helpers */
-
-.clearfix,
-.clear {
-    clear:both;
+.clearfix, .clear {
+    clear: both;
 }
 
 html {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *, *:before, *:after {
     -webkit-box-sizing: inherit;
-            box-sizing: inherit;
+    box-sizing: inherit;
 }
 
-html,
-body {
-    -webkit-text-size-adjust:none;
+html, body {
+    -webkit-text-size-adjust: none;
 }
 
-::-webkit-input-placeholder { /* WebKit browsers */
-    opacity: 1;
-    color: inherit;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    opacity: 1;
-    color: inherit;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-    opacity: 1;
-    color: inherit;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
+::-webkit-input-placeholder {
+    /* WebKit browsers */
     opacity: 1;
     color: inherit;
 }
 
-input,
-textarea,
-button,
-select {
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    opacity: 1;
+    color: inherit;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    opacity: 1;
+    color: inherit;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    opacity: 1;
+    color: inherit;
+}
+
+input, textarea, button, select {
     border-radius: 0;
-    font-family:inherit;
+    font-family: inherit;
 }
 
 textarea {
     resize: vertical;
 }
-a{
+
+a {
     outline: none;
 }
 
@@ -303,17 +285,12 @@ a{
     display: none!important;
 }
 
-.slick-slider,
-.slick-slider *,
-.slick-slider a,
-input:focus,
-select:focus,
-textarea:focus{
+.slick-slider, .slick-slider *, .slick-slider a, input:focus, select:focus, textarea:focus {
     color: inherit;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-a:focus{
+a:focus {
     color: inherit;
 }
 
@@ -324,7 +301,8 @@ a:focus{
 3. IP styles
 4. MEDIA QUERIES ARE AUTOMATICALLY REMOVED FROM THIS FILE, they must be placed in style-media-queries.css
 
-*//*******************************************************
+*/
+/*******************************************************
  *
  * 1. Variables
  *
@@ -380,15 +358,15 @@ a:focus{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin: 0 auto;
     -webkit-transform: scaleX(0);
-        -ms-transform: scaleX(0);
-            transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
     width: 100%;
     height: 2px;
     background: var(--secondary-color);
@@ -401,8 +379,8 @@ a:focus{
 #nav > li:hover > a:before {
     opacity: 1;
     -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-            transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
     width: 100%;
 }
 
@@ -415,11 +393,11 @@ a:focus{
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     font-size: 0;
 }
 
@@ -543,11 +521,11 @@ textarea {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     width: 100%;
     height: 56px;
     border: 1px solid var(--secondary-color);
@@ -700,11 +678,11 @@ textarea {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding: 20px 0;
 }
 
@@ -735,11 +713,11 @@ textarea {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .logo {
@@ -786,7 +764,7 @@ textarea {
     background-repeat: no-repeat;
     opacity: 0.05;
     -webkit-filter: grayscale(1);
-            filter: grayscale(1);
+    filter: grayscale(1);
 }
 
 .slideshow-slide-img {
@@ -829,8 +807,8 @@ textarea {
     display: flex;
     max-width: 78%;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
     font-size: 0;
     z-index: 2;
 }
@@ -857,7 +835,7 @@ textarea {
 .slideshow-content-text > span {
     width: 145px;
     -webkit-animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-            animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid;
@@ -894,7 +872,7 @@ textarea {
 .slideshow-content-text h2 + span {
     font-size: 27px;
     -webkit-animation: typing 5s steps(24), blink 0.5s step-end infinite alternate;
-            animation: typing 5s steps(24), blink 0.5s step-end infinite alternate;
+    animation: typing 5s steps(24), blink 0.5s step-end infinite alternate;
     width: 358px;
 }
 
@@ -984,18 +962,18 @@ textarea {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     width: 100%;
     max-width: 602px;
     margin: 0 auto;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
 }
 
 .about-logo {
@@ -1358,7 +1336,7 @@ textarea {
     background-size: cover;
     opacity: .20;
     -webkit-filter: grayscale(1);
-            filter: grayscale(1);
+    filter: grayscale(1);
 }
 
 .slide-photo-holder img {
@@ -1413,8 +1391,28 @@ textarea {
 
 /* iPad(portrait) | Galaxy Tab 4(portrait)  */
 @media only screen and (max-width: 991px) {
+    .parallax-title-accent.is-right .parallax-text-holder {
+        right: 94px;
+        width: 100%;
+        max-width: 120px;
+    }
+
     .parallax-text h2 {
-        font-size: 170px;
+        font-size: 123px;
+    }
+
+    .about-container .parallax-title-accent.is-right .parallax-text-holder {
+        right: 94px;
+        width: 100%;
+        max-width: 120px;
+    }
+
+    .about-container .parallax-title-accent.is-right .parallax-text-holder:last-of-type {
+        right: 0;
+        width: 100%;
+        max-width: 114px;
+        top: 10%;
+        bottom: auto;
     }
 
     .slideshow-client-photo {
@@ -1433,11 +1431,11 @@ textarea {
         max-width: 100%;
         padding: 0;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
         height: 100%;
     }
 
@@ -1547,6 +1545,11 @@ textarea {
         bottom: -60px;
     }
 
+    .footer-main-wrapper .parallax-text-holder:last-of-type {
+        left: -2%;
+        top: -5%;
+    }
+
     .copyright {
         line-height: 1.3;
     }
@@ -1557,7 +1560,7 @@ textarea {
     }
 
     .footer-main-wrapper .parallax-text h2 {
-        opacity: .20;
+        opacity: .40;
     }
 }
 
@@ -1583,5 +1586,4 @@ textarea {
 
 /* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */
 @media only screen and (max-width: 480px) {
-
 }

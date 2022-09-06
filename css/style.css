@@ -1,0 +1,1632 @@
+/*******************************************************
+ *
+ * Homepage
+ *
+ *******************************************************/
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Black.woff2') format('woff2'),
+        url('../fonts/LeagueSpartan/LeagueSpartan-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-ExtraLight.woff2') format('woff2'),
+        url('../fonts/LeagueSpartan/LeagueSpartan-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Bold.woff2') format('woff2'),
+        url('../fonts/LeagueSpartan/LeagueSpartan-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Light.woff2') format('woff2'),
+        url('../fonts/LeagueSpartan/LeagueSpartan-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-ExtraBold.woff2') format('woff2'),
+        url('../fonts/LeagueSpartan/LeagueSpartan-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Medium.woff2') format('woff2'),
+        url('../fonts/LeagueSpartan/LeagueSpartan-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Regular.woff2') format('woff2'),
+        url('../fonts/LeagueSpartan/LeagueSpartan-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-SemiBold.woff2') format('woff2'),
+        url('../fonts/LeagueSpartan/LeagueSpartan-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('../fonts/LeagueSpartan/LeagueSpartan-Thin.woff2') format('woff2'),
+        url('../fonts/LeagueSpartan/LeagueSpartan-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-Bold.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-BlackItalic.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-BoldItalic.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-Black.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-ExtraBoldItalic.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-LightItalic.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-ExtraBold.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-ExtraLight.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-ExtraLightItalic.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-RegularItalic.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-Regular.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-SemiBoldItalic.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-SemiBold.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('../fonts/EncorpadaClassic/EncorpadaClassic-Light.woff2') format('woff2'), url('fonts/EncorpadaClassic/EncorpadaClassic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/Bebas/Bebas-Regular.woff2') format('woff2'), url('fonts/Bebas/Bebas-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, tt, var, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+area,
+img,
+map {
+    outline:none;
+}
+
+/* Helpers */
+
+.clearfix,
+.clear {
+    clear:both;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    -webkit-text-size-adjust:none;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    opacity: 1;
+    color: inherit;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    opacity: 1;
+    color: inherit;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    opacity: 1;
+    color: inherit;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    opacity: 1;
+    color: inherit;
+}
+
+input,
+textarea,
+button,
+select {
+    border-radius: 0;
+    font-family:inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+a{
+    outline: none;
+}
+
+.ai-hide {
+    display: none!important;
+}
+
+.slick-slider,
+.slick-slider *,
+.slick-slider a,
+input:focus,
+select:focus,
+textarea:focus{
+    color: inherit;
+    text-decoration:none;
+}
+
+a:focus{
+    color: inherit;
+}
+
+/*TABLE OF CONTENTS
+
+1. Variables
+2. Custom CSS
+3. IP styles
+4. MEDIA QUERIES ARE AUTOMATICALLY REMOVED FROM THIS FILE, they must be placed in style-media-queries.css
+
+*//*******************************************************
+ *
+ * 1. Variables
+ *
+ *******************************************************/
+
+
+
+:root {
+    /** Font default */
+    --body-font: 'League Spartan', Arial, Helvetica, Tahoma, sans-serif;
+    --encorpada: 'Encorpada Classic', 'Playfair Display', Georgia, Times New Roman, serif;
+    --bebas: 'Bebas', Arial, Helvetica, Tahoma, cursive;
+    --font-size-default: 14px;
+    --font-size-title: 18px;
+    --font-color-default: #000000;
+    --font-color-title: #6c757d;
+    /** Use for input, button, and any other element */
+    --primary-color: #000000;
+    --secondary-color: #e9b844;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+/*******************************************************
+ *
+ * 2. Navigation
+ *
+ *******************************************************/
+/* Sub Menu */
+#nav li {
+    position: relative;
+    display: inline-block;
+    margin-right: 60px;
+}
+
+#nav li a {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    color: #fff;
+    position: relative;
+    font-family: var(--body-font);
+}
+
+#nav > li > a:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transform: scaleX(0);
+    width: 100%;
+    height: 2px;
+    background: var(--secondary-color);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+#nav > li:hover > a:before {
+    opacity: 1;
+    transform: scaleX(1);
+    width: 100%;
+}
+
+#nav li:last-child {
+    margin-right: 0;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0;
+}
+
+#nav li:hover > .sub-menu {
+    opacity: 1;
+    visibility: visible;
+    padding-top: 20px;
+    pointer-events: auto;
+}
+
+/*******************************************************
+ *
+ * 3. Custom CSS
+ *
+ *******************************************************/
+/* Global */
+body {
+    font-family: var(--body-font);
+    font-size: var(--font-size-default);
+    background: #000;
+    color: var(--font-color-default);
+    margin: 0;
+    /* Remove the comment from line 85 to 86 if the font issue in safari occurs */
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+}
+
+/*CSS Reset*/
+a, a:hover, a:visited, a:focus, textarea {
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+
+a:hover, a:visited {
+}
+
+main section {
+    position: relative;
+    padding: 0;
+}
+
+.slick-track * {
+    outline: none;
+    -webkit-transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+}
+
+input[type="radio"] {
+    -webkit-appearance: radio;
+    -moz-appearance: radio;
+    appearance: radio;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+    -moz-appearance: checkbox;
+    appearance: checkbox;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+textarea {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    border-radius: 0;
+}
+
+[class*="ai-icon-"] {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+#main-wrapper {
+    overflow: hidden;
+}
+
+.particle-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.particle-js canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    opacity: .50;
+}
+
+/* Global Button */
+.global-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 56px;
+    border: 1px solid var(--secondary-color);
+    max-width: 190px;
+    color: #fff!important;
+    text-transform: uppercase;
+    letter-spacing: 0.100em;
+    font-size: 15px;
+    line-height: 1;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+    font-weight: 500;
+}
+
+.global-btn:focus, .global-btn:hover {
+    color: var(--secondary-color)!important;
+    background-color: #000;
+    border-color: #000;
+}
+
+/* Global Title */
+.global-title {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.global-title h2 {
+    font-family: var(--encorpada);
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+.global-title.is-white h2 {
+    color: var(--secondary-color);
+}
+
+.global-title.is-blue h2 {
+    color: #06274b;
+}
+
+.global-title span {
+    font-family: var(--jost);
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0.500em;
+    text-transform: uppercase;
+    color: #06274b;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.global-title.is-white span {
+    color: var(--secondary-color);
+}
+
+/*Parallax*/
+.attachment-fixed canvas {
+    background-attachment: fixed!important;
+}
+
+.parallax-text h2 {
+    font-size: 271px;
+    line-height: 1;
+    font-weight: 400;
+    display: inline-block;
+    text-align: right;
+    color: #fff;
+    -webkit-writing-mode: tb-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(233,184,68,.20);
+    font-family: var(--bebas);
+    height: 100%;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.parallax-text-holder {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+
+.parallax-text-holder:last-of-type {
+    top: auto;
+    bottom: 0;
+}
+
+.parallax-text-holder:last-of-type .parallax-text h2 {
+    -webkit-text-stroke-color: rgba(233,184,68,.30);
+}
+
+.parallax-title-accent.is-wt .parallax-text h2 {
+    -webkit-text-stroke-color: rgba(255,255,255,0.20);
+}
+
+.parallax-title-accent.is-left .parallax-text-holder {
+    left: 0;
+}
+
+.parallax-title-accent.is-left .parallax-text-holder:last-of-type {
+    left: 24%;
+}
+
+.parallax-title-accent.is-right .parallax-text-holder {
+    right: 13%;
+}
+
+.parallax-title-accent.is-right .parallax-text-holder:last-of-type {
+    right: 0;
+}
+
+/*Fixed Header*/
+.header-wrapper.active {
+    padding: 10px 0;
+}
+
+.header-wrapper.active .logo img {
+    max-width: 70px;
+}
+
+/* Header */
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1028;
+    width: 100%;
+    font-size: 0;
+    -webkit-transition: 0.4s all ease-out;
+    transition: 0.4s all ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.header-wrapper:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+.header-wrapper.active:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.logo img {
+    max-width: 100px;
+    width: 100%;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+.logo a {
+    display: block;
+    position: relative;
+}
+
+/*Slideshow*/
+.slideshow-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.slideshow-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.slideshow-slide-img canvas {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.05;
+    filter: grayscale(1);
+}
+
+.slideshow-slide-img {
+    display: block;
+    position: relative;
+    background-color: #161616;
+}
+
+.slideshow-slide-item {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.slideshow-slide {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slideshow-container .slide-spacer {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Slideshow Content */
+.slideshow-content-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    max-width: 78%;
+    align-items: flex-end;
+    font-size: 0;
+    z-index: 2;
+}
+
+.slideshow-content {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+    padding: 0 0 55px 50px;
+}
+
+.slide-photo-holder {
+    display: block;
+    position: relative;
+}
+
+.slideshow-content-text {
+    display: block;
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.slideshow-content-text > span {
+    width: 145px;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-family: monospace;
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.slideshow-content-text h2 + span {
+    font-size: 27px;
+    animation: typing 5s steps(24), blink 0.5s step-end infinite alternate;
+    width: 358px;
+}
+
+.slideshow-content-text h2 {
+    font-size: 165px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: var(--encorpada);
+    color: #fff;
+    display: block;
+    margin-bottom: 13px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--secondary-color);
+}
+
+.slideshow-client-photo {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+}
+
+/*About*/
+.about-container {
+    display: block;
+    position: relative;
+    padding: 100px 0;
+    font-size: 0;
+    overflow: hidden;
+    z-index: 5;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+.about-wrapper {
+    display: block;
+    position: relative;
+}
+
+.custom-container {
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.about-lines {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 38.851%;
+    border-left: 1px solid rgba(233,184,68,.20);
+    border-right: 1px solid rgba(233,184,68,.20);
+    margin: 0 auto;
+    right: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.about-main {
+    display: block;
+    position: relative;
+}
+
+.about-content-container {
+    display: block;
+    position: relative;
+    z-index: 5;
+}
+
+.about-content {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto 80px;
+}
+
+.about-logos {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 602px;
+    margin: 0 auto;
+    flex-flow: row wrap;
+}
+
+.about-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% / 4);
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-logo img {
+    width: 100%;
+    max-width: 118px;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+.about-content p {
+    font-family: var(--jost);
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.020em;
+    color: #e3e3e3;
+}
+
+/*Footer Top*/
+.footer-contacts-container {
+    display: block;
+    position: relative;
+    padding: 100px 0;
+    font-size: 0;
+    background: rgba(0,0,0,.10);
+    z-index: 5;
+}
+
+.footer-contacts-wrapper {
+    display: block;
+    position: relative;
+}
+
+.footer-contacts-main {
+    display: block;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.footer-caption {
+    display: block;
+    position: relative;
+    margin: 0 auto 55px;
+}
+
+.footer-logo {
+    display: block;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.footer-contacts {
+    display: block;
+    position: relative;
+}
+
+.footer-caption p {
+    font-size: 30px;
+    line-height: 1.8;
+    letter-spacing: -0.028em;
+    color: #e3e3e3;
+    font-weight: 400;
+}
+
+.footer-logo a {
+    display: block;
+    position: relative;
+}
+
+.footer-logo img {
+    max-width: 100%;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.footer-contacts span {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0.035em;
+}
+
+.footer-contacts span em {
+    color: var(--secondary-color);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.footer-contacts span a {
+    color: #e3e3e3;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+.footer-contacts span a:hover, .footer-contacts span a:focus {
+    color: var(--secondary-color);
+}
+
+.footer-contacts span:not(:last-child) {
+    margin-right: 30px;
+}
+
+/*Footer Nav*/
+.footer-main-container {
+    display: block;
+    position: relative;
+    font-size: 0;
+    padding: 85px 0 0;
+    overflow: hidden;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+.footer-main-wrapper {
+    display: block;
+    position: relative;
+}
+
+.footer-main {
+    display: block;
+    position: relative;
+}
+
+.footer-main-row {
+    display: block;
+    position: relative;
+    margin-bottom: 85px;
+}
+
+.footer-main-col {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 50%;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+    display: block;
+}
+
+.footer-copyright:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.10);
+    margin-left: calc((100vw - 1140px) / -2);
+    margin-right: calc((100vw - 1140px) / -2);
+}
+
+.footer-main-title {
+    display: block;
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.footer-main-title h2 {
+    font-size: 50px;
+    line-height: 1;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-family: var(--encorpada);
+    font-weight: 300;
+}
+
+/*Footer Form*/
+.footer-form-widget {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 715px;
+    margin: 0 auto;
+}
+
+.footer-form-widget form {
+    display: block;
+    position: relative;
+}
+
+.footer-form {
+    display: block;
+    position: relative;
+}
+
+.footer-form-row .footer-form-col {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width: calc(50% - 5px);
+}
+
+.footer-form-submit {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.footer-form-col input:not([type=submit]), .footer-form-col textarea {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 20px;
+    color: #fff;
+    letter-spacing: 0.050em;
+    border: 1px solid #464545;
+}
+
+.footer-form-submit button {
+    font-size: 25px;
+    background: transparent;
+    padding: 0;
+    color: var(--secondary-color);
+    line-height: 1;
+    border: none;
+    -webkit-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+.footer-form-submit button:hover {
+    color: #af882c;
+}
+
+.footer-form-widget div.wpcf7 .ajax-loader {
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 16px;
+    height: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-form-widget div.wpcf7-response-output {
+    font-size: 14px;
+    color: #fff!important;
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-form-widget .use-floating-validation-tip span.wpcf7-not-valid-tip {
+    font-size: 12px;
+}
+
+.footer-form-col textarea {
+    resize: none;
+    padding: 20px 20px;
+    height: 130px;
+}
+
+.footer-form-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.footer-form-row.full {
+    display: block;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.footer-form-row.full .footer-form-col {
+    display: block;
+    width: 100%;
+}
+
+.footer-main-col:first-child {
+    width: 60.877%;
+}
+
+.footer-main-col:last-child {
+    width: 39.123%;
+}
+
+/*Copyright*/
+.copyright {
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.050em;
+    color: #c1c1c1;
+    position: relative;
+    display: block;
+}
+
+.copyright a {
+    color: #c1c1c1;
+    -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    transition: 0.3s all ease-in-out;
+}
+
+.copyright a:hover, .copyright a:focus {
+    color: #fff;
+}
+
+.copyright span {
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+.about-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-color: #000;
+    z-index: 1;
+}
+
+.about-bg canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .20;
+    filter: grayscale(1);
+}
+
+.slide-photo-holder img {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: -112px;
+}
+
+.footer-container {
+    position: relative;
+    z-index: 2;
+}
+
+.footer-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: none;
+}
+
+.footer-bg canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.07;
+}
+
+/*404 Page*/
+.error404 #site-content {
+    padding-top: 164px;
+    padding-bottom: 100px;
+}
+
+.error404-content {
+    text-align: center;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.error404 #site-content .search-form {
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.intro-text {
+    font-size: 25px;
+    margin-top: 30px;
+    color: #fff;
+    line-height: 1.7;
+}
+
+.error404 #site-content .search-form input[type="search"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    font-size: 21px;
+    letter-spacing: -0.015em;
+    margin: 0;
+    max-width: 100%;
+    padding: 0 20px;
+    width: 100%;
+    height: 79px;
+    border: 1px solid var(--secondary-color);
+    color: #fff;
+}
+
+.error404 #site-content .search-form input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: var(--secondary-color);
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.0333em;
+    line-height: 1.25;
+    margin: 0;
+    opacity: 1;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity 0.15s linear;
+    display: inline-flex;
+    height: 79px;
+}
+
+
+.error404-content h1.entry-title {
+    font-size: 60px;
+    color: var(--secondary-color);
+    font-family: var(--encorpada);
+    font-weight: 400;
+}
+
+.menu-modal.cover-modal.header-footer-group {
+    display: none;
+}
+
+
+/*******************************************************
+ *
+ * Mobile styles and other media queries
+ *
+ *******************************************************/
+@media only screen and (max-width: 1440px) {
+}
+
+@media only screen and (max-width: 1366px) {
+}
+
+@media only screen and (max-width: 1280px) {
+}
+
+/* iPad(landscape) | iPad(landscape) | Galaxy Tab 4 (landscape) | Galaxy Tab 3 (landscape) */
+@media only screen and (max-width: 1199px) {
+}
+
+/* iPad(portrait) | Galaxy Tab 4(portrait)  */
+@media only screen and (max-width: 991px) {
+    .parallax-text h2 {
+        font-size: 170px;
+    }
+
+    .slideshow-client-photo {
+        display: block;
+        width: 100%;
+        max-width: 234px;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: none;
+    }
+
+    .slideshow-content-container {
+        text-align: center;
+        max-width: 100%;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .slideshow-slide-item {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    .slideshow-container .slide-spacer {
+        display: none;
+    }
+
+    .slideshow-content-text h2 {
+        font-size: 70px;
+    }
+
+    .slideshow-content {
+        width: 100%;
+        padding: 0;
+        display: block;
+    }
+
+    .slide-photo-holder img {
+        margin-bottom: 0;
+    }
+
+    .slideshow-slide-img canvas {
+        min-height: 450px;
+        height: auto;
+    }
+
+    .slide-btn a {
+        margin: 0 auto;
+    }
+
+    #nav li {
+        margin-right: 28px;
+    }
+
+    .logo img {
+        max-width: 75px;
+    }
+
+    .header-wrapper .container {
+        width: 100%;
+    }
+
+    #nav li a {
+        font-size: 18px;
+    }
+
+    .header-wrapper {
+        background-color: #000;
+        min-height: 118px;
+    }
+
+    #slideshow {
+        margin-top: 118px;
+    }
+
+    .slideshow-content-text h2 + span, .slideshow-content-text > span {
+        font-size: 20px;
+    }
+
+    .slideshow-content-text h2 + span {
+        width: 275px;
+    }
+
+    .slideshow-content-text > span {
+        width: 125px;
+    }
+
+    .about-container {
+        padding: 70px 0 50px;
+    }
+
+    .about-content p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .about-content {
+        margin: 0 auto 50px;
+        width: 100%;
+    }
+
+    .footer-caption p {
+        font-size: 17px;
+    }
+
+    .footer-contacts span:not(:last-child) {
+        margin: 0 0 20px;
+    }
+
+    .footer-contacts span {
+        font-size: 18px;
+        display: block;
+    }
+
+    .about-logo {
+        width: calc(100% / 2);
+        padding: 15px;
+    }
+
+    .footer-form-widget div.wpcf7-response-output {
+        bottom: -60px;
+    }
+
+    .copyright {
+        line-height: 1.3;
+    }
+
+    .footer-copyright:before {
+        margin-left: calc((100vw - 740px) / -2);
+        margin-right: calc((100vw - 740px) / -2);
+    }
+
+    .footer-main-wrapper .parallax-text h2 {
+        opacity: .20;
+    }
+
+    /* The following are used on inner pages. Please edit carefully. */
+    .inner {
+        width: 100%;
+    }
+
+    #content-sidebar, #content-full {
+        width: 100%;
+    }
+
+    .outer {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    #content-sidebar #content {
+        width: 100%;
+    }
+
+    #content .archive-list .article-long .archive-has-thumbnail {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #content .archive-list .article-long .archive-thumbnail {
+        width: 100%;
+    }
+
+    #content .archive-list .article-long .archive-has-thumbnail .archive-subtitle {
+        margin-top: .75em;
+    }
+
+    #content .archive-list .article-long p {
+        font-size: 16px;
+    }
+}
+
+/* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */
+@media only screen and (max-width: 767px) {
+    .ip-banner .container {
+        width: 100%;
+    }
+
+    .global-title h2 {
+        font-size: 45px;
+    }
+
+    .about-logo img {
+        max-width: 90px;
+        height: 80px;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+
+    .footer-copyright:before {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+}
+
+/* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */
+@media only screen and (max-width: 480px) {
+    #content .entry-title, #content .archive-title {
+        font-size: 35px;
+    }
+}

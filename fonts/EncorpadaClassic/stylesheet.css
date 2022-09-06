@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-Bold.woff2') format('woff2'),
+        url('EncorpadaClassic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-BlackItalic.woff2') format('woff2'),
+        url('EncorpadaClassic-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-BoldItalic.woff2') format('woff2'),
+        url('EncorpadaClassic-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-Black.woff2') format('woff2'),
+        url('EncorpadaClassic-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-ExtraBoldItalic.woff2') format('woff2'),
+        url('EncorpadaClassic-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-LightItalic.woff2') format('woff2'),
+        url('EncorpadaClassic-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-ExtraBold.woff2') format('woff2'),
+        url('EncorpadaClassic-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-ExtraLight.woff2') format('woff2'),
+        url('EncorpadaClassic-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-ExtraLightItalic.woff2') format('woff2'),
+        url('EncorpadaClassic-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-RegularItalic.woff2') format('woff2'),
+        url('EncorpadaClassic-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-Regular.woff2') format('woff2'),
+        url('EncorpadaClassic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-SemiBoldItalic.woff2') format('woff2'),
+        url('EncorpadaClassic-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-SemiBold.woff2') format('woff2'),
+        url('EncorpadaClassic-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Encorpada Classic';
+    src: url('EncorpadaClassic-Light.woff2') format('woff2'),
+        url('EncorpadaClassic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

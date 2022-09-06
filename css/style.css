@@ -255,11 +255,13 @@ map {
 }
 
 html {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 *, *:before, *:after {
-    box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
 }
 
 html,
@@ -379,22 +381,33 @@ a:focus{
     bottom: -5px;
     left: 0;
     right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 0 auto;
-    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
     width: 100%;
     height: 2px;
     background: var(--secondary-color);
     -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     opacity: 0;
 }
 
 #nav > li:hover > a:before {
     opacity: 1;
-    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
     width: 100%;
 }
 
@@ -403,9 +416,15 @@ a:focus{
 }
 
 .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-size: 0;
 }
 
@@ -498,6 +517,7 @@ textarea {
     background-repeat: no-repeat;
     background-size: contain;
     -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
 }
 
@@ -524,9 +544,15 @@ textarea {
 
 /* Global Button */
 .global-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
     height: 56px;
     border: 1px solid var(--secondary-color);
@@ -537,6 +563,7 @@ textarea {
     font-size: 15px;
     line-height: 1;
     -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
     font-weight: 500;
 }
@@ -672,10 +699,17 @@ textarea {
     width: 100%;
     font-size: 0;
     -webkit-transition: 0.4s all ease-out;
+    -o-transition: 0.4s all ease-out;
     transition: 0.4s all ease-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 20px 0;
 }
 
@@ -687,10 +721,12 @@ textarea {
     width: 100%;
     height: 100%;
     pointer-events: none;
+    background: -o-radial-gradient(24.1% 68.8%, circle, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     opacity: 0;
     visibility: hidden;
     -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
 }
 
@@ -700,9 +736,15 @@ textarea {
 }
 
 .header-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .logo {
@@ -715,6 +757,7 @@ textarea {
     max-width: 100px;
     width: 100%;
     -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
 }
 
@@ -747,7 +790,8 @@ textarea {
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.05;
-    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1);
 }
 
 .slideshow-slide-img {
@@ -785,9 +829,13 @@ textarea {
     right: 0;
     width: 100%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     max-width: 78%;
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     font-size: 0;
     z-index: 2;
 }
@@ -813,7 +861,8 @@ textarea {
 
 .slideshow-content-text > span {
     width: 145px;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    -webkit-animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+            animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid;
@@ -823,9 +872,21 @@ textarea {
     display: inline-block;
 }
 
+@-webkit-keyframes typing {
+    from {
+        width: 0
+    }
+}
+
 @keyframes typing {
     from {
         width: 0
+    }
+}
+
+@-webkit-keyframes blink {
+    50% {
+        border-color: transparent
     }
 }
 
@@ -837,7 +898,8 @@ textarea {
 
 .slideshow-content-text h2 + span {
     font-size: 27px;
-    animation: typing 5s steps(24), blink 0.5s step-end infinite alternate;
+    -webkit-animation: typing 5s steps(24), blink 0.5s step-end infinite alternate;
+            animation: typing 5s steps(24), blink 0.5s step-end infinite alternate;
     width: 358px;
 }
 
@@ -869,6 +931,7 @@ textarea {
     font-size: 0;
     overflow: hidden;
     z-index: 5;
+    background: -o-radial-gradient(24.1% 68.8%, circle, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 }
 
@@ -922,13 +985,22 @@ textarea {
 
 .about-logos {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     max-width: 602px;
     margin: 0 auto;
-    flex-flow: row wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
 }
 
 .about-logo {
@@ -944,6 +1016,7 @@ textarea {
     width: 100%;
     max-width: 118px;
     -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
 }
 
@@ -1052,6 +1125,7 @@ textarea {
     font-size: 0;
     padding: 85px 0 0;
     overflow: hidden;
+    background: -o-radial-gradient(24.1% 68.8%, circle, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 }
 
@@ -1167,6 +1241,7 @@ textarea {
     line-height: 1;
     border: none;
     -webkit-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
     transition: 0.3s all ease-in-out;
 }
 
@@ -1287,7 +1362,8 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: .20;
-    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1);
 }
 
 .slide-photo-holder img {
@@ -1321,86 +1397,6 @@ textarea {
     background-repeat: no-repeat;
     opacity: 0.07;
 }
-
-/*404 Page*/
-.error404 #site-content {
-    padding-top: 164px;
-    padding-bottom: 100px;
-}
-
-.error404-content {
-    text-align: center;
-    max-width: 940px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.error404 #site-content .search-form {
-    justify-content: center;
-    margin-top: 3rem;
-}
-
-.intro-text {
-    font-size: 25px;
-    margin-top: 30px;
-    color: #fff;
-    line-height: 1.7;
-}
-
-.error404 #site-content .search-form input[type="search"]{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-color: transparent;
-    border-radius: 0;
-    box-shadow: none;
-    display: block;
-    font-size: 21px;
-    letter-spacing: -0.015em;
-    margin: 0;
-    max-width: 100%;
-    padding: 0 20px;
-    width: 100%;
-    height: 79px;
-    border: 1px solid var(--secondary-color);
-    color: #fff;
-}
-
-.error404 #site-content .search-form input[type="submit"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background: var(--secondary-color);
-    border: none;
-    border-radius: 0;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1.5rem;
-    font-weight: 600;
-    letter-spacing: 0.0333em;
-    line-height: 1.25;
-    margin: 0;
-    opacity: 1;
-    padding: 0 25px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: opacity 0.15s linear;
-    display: inline-flex;
-    height: 79px;
-}
-
-
-.error404-content h1.entry-title {
-    font-size: 60px;
-    color: var(--secondary-color);
-    font-family: var(--encorpada);
-    font-weight: 400;
-}
-
-.menu-modal.cover-modal.header-footer-group {
-    display: none;
-}
-
 
 /*******************************************************
  *
@@ -1441,8 +1437,12 @@ textarea {
         text-align: center;
         max-width: 100%;
         padding: 0;
-        align-items: center;
-        justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         height: 100%;
     }
 
@@ -1614,7 +1614,8 @@ textarea {
     .about-logo img {
         max-width: 90px;
         height: 80px;
-        object-fit: contain;
+        -o-object-fit: contain;
+           object-fit: contain;
         margin: 0 auto;
     }
 
